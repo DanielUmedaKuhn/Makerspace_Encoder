@@ -1,7 +1,7 @@
 Makerspace 3D Printer Fail Identification Project
 ======
 
-## This project aims to track and identify feeding-related fails in 3D printers. It has been tested and implemented in Ultimaker S3, S5 and S7 models.
+### This project aims to track and identify feeding-related fails in 3D printers. It has been tested and implemented in Ultimaker S3, S5 and S7 models.
 
 Parts utilized:
 * Arduino nano ESP32
