@@ -3,9 +3,9 @@
 #include <PubSubClient.h>
 
 //Wifi Credentials
-const char* ssid = "HAWHof";  
-const char* eap_identity = "dumedakuhn";    //Username for the network
-const char* eap_password = "Trebuchets90300.";  //Password for the network
+const char* ssid = "Network_SSID_here";     //choose one of the univerisity networks, I find HAWHof the most reliable one  
+const char* eap_identity = "your_username_here";    //Username for the network
+const char* eap_password = "your_password_here";  //Password for the network
 
 //MQTT Configs
 const char* mqtt_server = "broker.hivemq.com";
@@ -23,7 +23,6 @@ bool wasActive = false; //Flag to track the  encoder state, true = time since la
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-
 //Interruption
 void IRAM_ATTR encoderTriggered() {
   lastDetectionTime = millis();
@@ -31,7 +30,7 @@ void IRAM_ATTR encoderTriggered() {
   wasActive = true;
 }
 
-//Connection to Enterprise Wifi (University Wifi)
+//Connection to Enterprise Wifi (the chosen university Wifi in this case)
 void setup_wifi_enterprise() {
   Serial.println("Configuring Wi-Fi to WPA2-Enterprise...");
   WiFi.disconnect(true);
