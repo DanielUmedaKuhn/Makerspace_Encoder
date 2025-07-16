@@ -9,4 +9,4 @@ Parts utilized:
 * LED 5V
 * 3D printed encoder support and disc 
 
-The encoder is screwed into the support and positioned in front of the disc attached to the filament roll. The system identifies when the printer is not being fed during a print, through inactivity in the filament roll. There is a warning light to let the user know when there is a problem with the feeding mechanism.
+The encoder is screwed into the support and positioned in front of the disc attached to the filament roll. The system identifies when the printer is not being fed during a print through inactivity in the filament roll. There is a warning light to let the user know when there is a problem with the feeding mechanism.
