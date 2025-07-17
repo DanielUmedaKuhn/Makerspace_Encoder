@@ -10,7 +10,7 @@ Parts utilized:
 * LED diode 2.25V
 * 3D printed encoder support and grooved disc 
 
-The encoder is fixed to the support and positioned in front of the disc attached to the filament roll. The system identifies when the printer is not being fed during a print through inactivity in the filament roll. There is a warning light to let the user know when there is a problem with the feeding mechanism.
+The encoder is fixed to the support and positioned in front of the disc attached to the filament roll. The system identifies when the printer is not being fed during a print through inactivity in the filament roll. When there is a problem with the feeding mechanism, the warning light goes on and a message is sent through the broker, to let the user be aware of the issue.
 
 Author:
 [Daniel Umeda Kuhn](https://github.com/DanielUmedaKuhn)
