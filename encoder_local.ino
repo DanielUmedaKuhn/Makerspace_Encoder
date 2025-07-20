@@ -22,3 +22,9 @@ void loop() {
   }
   delay(10);
 }
+
+void encoderTriggered(){
+  lastDetectionTime = millis();
+  digitalWrite(ledPin, LOW); //trocar pelo led normal
+  wasActive = true;
+}
